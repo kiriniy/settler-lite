@@ -1,0 +1,10 @@
+
+# This is example config file.
+# More info at https://www.robotstxt.org
+
+User-agent: *
+
+Disallow: /assets/inc/
+
+Host: example.com
+Sitemap: http://example.com/sitemap.xml
