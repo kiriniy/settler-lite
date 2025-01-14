@@ -1,35 +1,48 @@
 
-<!DOCTYPE HTML>
+<?php $page_id      = 'home';
+      $page_ver     = '';
+      $page_path    = '';
+      $page_type    = 'pages';
+      $page_class   = 'main';
 
-<?php require './assets/inc/pages_config.php';
+      $page_title   = 'Settler Lite';
+      $page_desc    = 'A blank php-based template.';
 
-      $page_id       = 'home';
-      $page_dir      = '';
-      $page_title    = 'Settler Lite';
-      $page_desc     = 'A blank PHP based web-project template.';
-      $page_cache    = 'no-cache';
-      $page_expiry   = '0';
-
-      $net_url       = $base_url;
-      $net_title     = $net_title_default;
-      $net_desc      = $net_desc_default;
-      $net_locale    = $net_locale_default;
-
+      require './assets/inc/pages_config.php';
+      
       ?>
 
-<html lang="">
-  <head>
-    <base href="<?php echo $base_url; ?>">
+<!DOCTYPE HTML>
+
+<html <?php echo $page_html_attr; ?>>
+  <head <?php echo $page_head_attr; ?>>
+    <base <?php echo $page_base_attr; ?>>
 
     <?php include $inc_path . 'pages_head-meta.php';
           include $inc_path . 'pages_head-snippets.php';
           include $inc_path . 'pages_head-resources.php';
+          include $inc_path . 'pages_head-noscript.php';
 
           ?>
 
+    <!-- JSON Schema Markup Example -->
+
+    <script type="application/ld+json">
+
+    {
+      "@context": "https://schema.org",
+      "@type": "",
+      "name": "",
+      "url": "",
+      "logo": "",
+      "sameAs": ""
+    }
+
+    </script>
+
   </head>
 
-  <body class="<?php echo $page_id; ?>" id="page-top">
+  <body <?php echo $page_body_attr; ?>>
 
     <!-- PAGE CONTENT START -->
 
