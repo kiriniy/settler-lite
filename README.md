@@ -11,7 +11,7 @@
 # Settler Lite
 Fat-free version of a blank PHP based web-project template — when future website are too big and complicated for static HTML, but not dynamic enough for CMS and database.
 
-If you're looking for full version:: [https://github.com/kiriniy/settler](https://github.com/kiriniy/settler)
+If you're looking for full version: [https://github.com/kiriniy/settler](https://github.com/kiriniy/settler)
 
 ## Requirements
  - Local (MAMP, WAMP etc.) or remote HTTP server with PHP.
