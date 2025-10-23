@@ -3,13 +3,13 @@
   date_default_timezone_set('Europe/Moscow');
 
   // Replace 'localhost:8888' with your correct domain or IP for local server.
-  // Replace '/project_settler/dist/' with correct path to your project on local server.
+  // Replace '/project_settler-lite/' with correct path to your project on local server.
   // Replace 'dev.example.com' with your dev server if you have one. Just leave as is if don't.
   // Replace 'example.com' with future site domain if you already have one.
 
   if ($_SERVER['HTTP_HOST'] == 'localhost:8888') { 
 
-      $base_url = '/project_settler-lite/dist/';
+      $base_url = '/project_settler-lite/';
 
   } elseif ($_SERVER['HTTP_HOST'] == 'dev.example.com') { 
 
