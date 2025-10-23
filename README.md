@@ -24,24 +24,24 @@ If you're looking for full version: [https://github.com/kiriniy/settler](https:/
 **Template structure:**
 
   ```text
-  settler-lite/
-  ├─ assets/
-  │  ├─ css/           — stylesheets files
-  │  ├─ img/           — images and icons
-  │  ├─ inc/           — php includes
-  │  └─ js/            — javascript files
-  ├─ extras/
-  │  ├─ blank.html     — blank html-template
-  │  └─ blank.php      — blank php-template
-  │
-  ├─ favicon.ico       - legacy browsers icon
-  ├─ index.php         - main site page
-  ├─ make.php          - static site generator
-  ├─ robots.txt        - example config file for crawlers
-  ├─ site.php          - main config file for site
-  ├─ site.webmanifest  - example config for pwa
-  └─ sitemap.xml       - example sitemap 
-    ```
+settler-lite/
+├─ assets/
+│  ├─ css/           — stylesheets files
+│  ├─ img/           — images and icons
+│  ├─ inc/           — php includes
+│  └─ js/            — javascript files
+├─ extras/
+│  ├─ blank.html     — blank html-template
+│  └─ blank.php      — blank php-template
+│
+├─ favicon.ico       - legacy browsers icon
+├─ index.php         - main site page
+├─ make.php          - static site generator
+├─ robots.txt        - example config file for crawlers
+├─ site.php          - main config file for site
+├─ site.webmanifest  - example config for pwa
+└─ sitemap.xml       - example sitemap 
+  ```
 
 ## License
 
