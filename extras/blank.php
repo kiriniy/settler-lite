@@ -1,19 +1,19 @@
 
 <?php $page_id         = '';
-      $page_ver        = '';
-      $page_path       = '';
+      $page_ver        = '?v=' . filemtime(__FILE__);
       $page_type       = '';
       $page_class      = '';
+      $page_level      = '../';
+      $page_path       = 'extras/';
 
+      $page_lang       = 'en';
       $page_title      = '';
       $page_desc       = '';
 
-      require '../assets/inc/pages_config.php';
+      require $page_level . 'site.php';
 
-      $page_charset    = '';
-      $page_prefetch   = '';
+   // $page_charset    = '';
       $page_csp        = '';
-      $page_cache      = '';
 
       $page_pretitle   = '';
       $page_posttitle  = '';
@@ -23,20 +23,22 @@
       $page_autoformat = '';
       $page_canonical  = '';
 
-      $page_html_attr  = 'lang=""';
-      $page_head_attr  = '';
-      $page_base_attr  = 'href="../"';
-      $page_body_attr  = 'class="" id="page-top"';
+   // $page_html_attr  = '';
+   // $page_head_attr  = '';
+   // $page_body_attr  = '';
 
-      $og_title        = '';
-      $og_desc         = '';
-      $og_card         = '';
-      $og_type         = '';
-      $og_locale       = '';
-      $og_url          = '';
-      $og_img_tw       = '';
-      $og_img_fb       = '';
-      $og_img_vk       = '';
+      $sharing_title        = '';
+      $sharing_desc         = '';
+      $sharing_url          = '';
+      $sharing_x_card       = '';
+      $sharing_x_img        = '';
+      $sharing_x_img_alt    = '';
+      $sharing_og_type      = '';
+      $sharing_og_locale    = '';
+      $sharing_og_img       = '';
+      $sharing_og_img_alt   = '';
+      $sharing_og_img_w     = '';
+      $sharing_og_img_h     = '';
 
       ?>
 
@@ -44,14 +46,11 @@
 
 <html <?php echo $page_html_attr; ?>>
   <head <?php echo $page_head_attr; ?>>
-    <base <?php echo $page_base_attr; ?>>
 
-    <?php include $inc_path . 'pages_head-meta.php';
-          include $inc_path . 'pages_head-snippets.php';
-          include $inc_path . 'pages_head-resources.php';
-          include $inc_path . 'pages_head-noscript.php';
-
-          ?>
+    <?php include $assets . 'inc/pages_head-meta.php';
+          include $assets . 'inc/pages_head-sharing.php';
+          include $assets . 'inc/pages_head-resources.php';
+          include $assets . 'inc/pages_head-noscript.php'; ?>
 
     <!-- JSON Schema Markup Example -->
 
@@ -78,7 +77,7 @@
 
     <!-- PAGE CONTENT END -->
 
-    <?php include $inc_path . 'pages_body-scripts.php'; ?>
+    <?php include $assets . 'inc/pages_body-scripts.php'; ?>
 
   </body>
 </html>

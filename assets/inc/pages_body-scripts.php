@@ -1,6 +1,6 @@
 
     <!-- Settler default scripts file -->
 
-    <script src="assets/js/scripts.js"></script>
+    <script src="<?php echo (addTime($page_level . 'assets/js/main.js')); ?>"></script>
 
     <!-- Paste your code for Google Analytics, Yandex.Metrika etc. -->

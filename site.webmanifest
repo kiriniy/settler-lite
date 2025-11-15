@@ -1,11 +1,23 @@
 {
   "name": "",
   "short_name": "",
-  "display": "standalone",
-  "background_color": "",
   "description": "",
+  "background_color": "",
+  "theme_color": "",
+  "display": "",
   "icons": [
-    { "src": "assets/img/icons/icon-192.png", "type": "image/png", "sizes": "192x192" },
-    { "src": "assets/img/icons/icon-512.png", "type": "image/png", "sizes": "512x512" }
+    { "src": "assets/img/icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    { "src": "assets/img/icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    { "src": "assets/img/icons/icon-512-mask.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
   ]
 }
