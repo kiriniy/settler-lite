@@ -14,7 +14,7 @@ A fat-free version of a blank PHP based web-project template — when future web
 If you're looking for **full** version: [https://github.com/kiriniy/settler](https://github.com/kiriniy/settler)
 
 ## Philosophy
-At some point, we were overwhelmed by frameworks, building tools, and dependency trees. However, most websites don't need React, Node.js, Docker, Webpack, or 100 dependencies in json-configs to get the job done. Web development has become overly complicated due to the assumption that everyone needs the same tools as large corporations, even for a simple five-page website.
+At some point, we were overwhelmed by frameworks, building tools, and dependency trees. However, most websites don't need React, Node.js, Docker, Webpack, or dozens of dependencies in json-configs to get the job done. Web development has become overly complicated due to the assumption that everyone needs the same tools as large corporations, even for a simple five-page website.
 
 ### For whom?
  - **Novice devs** who wants to learn PHP without getting lost in Laravel.
