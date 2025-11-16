@@ -13,48 +13,6 @@ A fat-free version of a blank PHP based web-project template — when future web
 
 If you're looking for **full** version: [https://github.com/kiriniy/settler](https://github.com/kiriniy/settler)
 
-This is a table with the difference between the **lite** and **full** versions.
-
-<table>
-  <tbody>
-    <tr>
-      <td width="70%"></td>
-      <td width="15%" align="center">Settler Lite</td>
-      <td width="15%" align="center">Settler</td>
-    </tr>
-    <tr><td>Size</td><td align="center">~100kb</td><td align="center">~2mb</td></tr>
-    <tr><td colspan="3" align="center"><strong>Third-party Components</strong></td></tr>
-    <tr><td>Bootstrap 5.x</td><td align="center">❌</td><td align="center">✅</td></tr>
-    <tr><td>Bootstrap Icons 1.x</td><td align="center">❌</td><td align="center">✅</td></tr>
-    <tr><td>Animate.css 4.x</td><td align="center">❌</td><td align="center">✅</td></tr>
-    <tr><td colspan="3" align="center"><strong>Components</strong></td></tr>
-    <tr><td>CSS-source files</td><td align="center">❌</td><td align="center">✅</td></tr>
-    <tr><td>JS-source files</td><td align="center">❌</td><td align="center">✅</td></tr>
-    <tr><td>Basic CSS styles</td><td align="center">❌</td><td align="center">✅</td></tr>
-    <tr><td>Basic JS scripts</td><td align="center">❌</td><td align="center">✅</td></tr>
-    <tr><td>Cookie alerts manager</td><td align="center">❌</td><td align="center">✅</td></tr>
-    <tr><td>Dark/light mode manager</td><td align="center">❌</td><td align="center">✅</td></tr>
-    <tr><td>Example HTML markup</td><td align="center">❌</td><td align="center">✅</td></tr>
-    <tr><td>Example errors (404 etc) layouts</td><td align="center">❌</td><td align="center">✅</td></tr>
-    <tr><td>Bootstrap 5 theme preview</td><td align="center">❌</td><td align="center">✅</td></tr>
-    <tr><td>Bootstrap 5 grid preview</td><td align="center">❌</td><td align="center">✅</td></tr>
-    <tr><td>Blank HTML/PHP templates</td><td align="center">✅</td><td align="center">✅</td></tr>
-    <tr><td>Icons and sharing thumbnails</td><td align="center">✅</td><td align="center">✅</td></tr>
-    <tr><td>PHP Information</td><td align="center">❌</td><td align="center">✅</td></tr>
-    <tr><td>Alerts module</td><td align="center">❌</td><td align="center">✅</td></tr>
-    <tr><td>No-script module</td><td align="center">Simple</td><td align="center">✅</td></tr>
-    <tr><td colspan="3" align="center"><strong>Core Files</strong></td></tr>
-    <tr><td>htaccess.txt</td><td align="center">❌</td><td align="center">✅</td></tr>
-    <tr><td>humans.txt</td><td align="center">❌</td><td align="center">✅</td></tr>
-    <tr><td>index.php</td><td align="center">✅</td><td align="center">✅</td></tr>
-    <tr><td>make.php</td><td align="center">✅</td><td align="center">✅</td></tr>
-    <tr><td>robots.txt</td><td align="center">✅</td><td align="center">✅</td></tr>
-    <tr><td>site.php</td><td align="center">✅</td><td align="center">✅</td></tr>
-    <tr><td>site.webmanifest</td><td align="center">✅</td><td align="center">✅</td></tr>
-    <tr><td>sitemap.xml</td><td align="center">✅</td><td align="center">✅</td></tr>
-  </tbody>
-</table>
-
 ## Philosophy
 At some point, we were overwhelmed by frameworks, building tools, and dependency trees. However, most websites don't need React, Node.js, Docker, Webpack, or 100 dependencies in json-configs to get the job done. Web development has become overly complicated due to the assumption that everyone needs the same tools as large corporations, even for a simple five-page website.
 
