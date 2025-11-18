@@ -14,17 +14,21 @@ A fat-free version of a blank PHP based web-project template — when future web
 If you're looking for **full** version: [https://github.com/kiriniy/settler](https://github.com/kiriniy/settler)
 
 ## Philosophy
-At some point, we were overwhelmed by frameworks, building tools, and dependency trees. However, most websites don't need React, Node.js, Docker, Webpack, or dozens of dependencies in json-configs to get the job done. Web development has become overly complicated due to the assumption that everyone needs the same tools as large corporations, even for a simple five-page website.
+At some point, we were overwhelmed by frameworks, building tools, and dependency trees. However, most websites don't need React, Node.js, Docker, Webpack, or dozens of dependencies in json-configs to get the job done. Web development has become overly complicated due to the assumption that everyone needs the same tools as large corporations, even for a five-page website or landing page.
+
+Settler is designed for simple websites with a few to hundreds of pages. These websites are managed by one person and do not require an admin panel, user profiles, or frequent updates. It is great for sharing hosting, which is inexpensive and powers millions of websites.
 
 ### For whom?
- - **Novice devs** who wants to learn PHP without getting lost in Laravel.
- - **Old-school devs** who still use `include()` as a design pattern.
- - **Small businesses** that just need a simple website, not a tech stack.
- - **Freelancers** who are looking for a way to quickly build client websites.
+ - **Novice devs** who need a dead-simple way to deploy to php-less hosting as pure HTML.
+ - **Old-school devs** who still use `include()` as a design pattern and are fine with it.
+ - **Not-quite devs** that just need a simple website, not a tech stack.
+ - **Small businesses** that use shared hosting services with Apache and PHP.
+ - **Freelancers** who are looking for a way to deliver a working site in hours, not days.
  - **Anyone** who wants to control every page and every line on it.
 
 ## Requirements
  - Local (MAMP, WAMP, XAMPP etc) or remote HTTP server with PHP.
+ - Code or Text editor.
 
 ## Setting Up
  - Download [latest release](https://github.com/kiriniy/settler-lite/releases/latest) and unzip it on your local or remote server.
@@ -46,13 +50,13 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
   ```text
 settler-lite/
 ├─ assets/
-│  ├─ css/             — stylesheets
-│  ├─ img/             — images and icons
-│  ├─ inc/             — php include files
-│  └─ js/              — scripts
+│  ├─ css/             - stylesheets
+│  ├─ img/             - images and icons
+│  ├─ inc/             - php include files
+│  └─ js/              - scripts
 ├─ extras/
-│  ├─ blank.html       — blank html-template
-│  └─ blank.php        — blank php-template
+│  ├─ blank.html       - blank html-template
+│  └─ blank.php        - blank php-template
 │
 ├─ favicon.ico         - legacy browsers icon
 ├─ index.php           - main entry point for the website
