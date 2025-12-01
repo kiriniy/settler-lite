@@ -97,7 +97,7 @@ settler-lite/
 
 ## Versioning
 
-Settler Lite **is not** versioned with [Semantic Versioning](https://semver.org/) and is only updated alongside major releases of Settler (e.g., Settler 2.0 → Settler Lite Two). It does not receive 2.1, 2.2, or bugfix updates. Think of it as a “long-term stable” minimal base.
+Settler Lite **is not** follows [Semantic Versioning](https://semver.org/) and is only updated alongside major releases of Settler. It does not receive 2.1, 2.2, or bugfix updates. Think of it as a “long-term stable” minimal base.
 
 ## Updating
 
@@ -115,6 +115,8 @@ See [Releases](https://github.com/kiriniy/settler-lite/releases) for the changel
  - [The Great Divide](https://css-tricks.com/the-great-divide/) by Chris Coyier on CSS-Tricks.
  - [Web Development Is Getting Too Complex](https://www.smashingmagazine.com/2024/02/web-development-getting-too-complex/) by Juan Diego Rodríguez on Smashing Magazine.
 
+**Also Philosophy**
+
  - [This is a motherf*g website](https://motherfuckingwebsite.com/)
  - [This is still a motherf*g website](http://bettermotherfuckingwebsite.com/)
  - [This is the final motherf*g website](https://perfectmotherfuckingwebsite.com/)
@@ -125,13 +127,9 @@ See [Releases](https://github.com/kiriniy/settler-lite/releases) for the changel
  - [Open Graph: Twitter Card](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary)
  - [Open Graph: Facebook Card](https://developers.facebook.com/docs/sharing/webmasters)
 
-## Contributing
+## Contributing & Security
 
-Contributions are welcome, especially for improving documentation, fixing typos or broken links, translations. Please open an Issue first [in main repo](https://github.com/kiriniy/settler) to discuss your idea, so we can keep Settler focused on simplicity without dependencies or complex features (e.g. form handlers, routers, CMS-like logic).
- 
-## Security
- 
-Settler Lite is a template with no database, user input, or authentication. The main security feature is optional CSP via `<meta>` tag. If you discover a vulnerability in the provided code, please submit a report [in main repo](https://github.com/kiriniy/settler) through GitHub Issues.
+Contributions are welcome, especially for improving documentation, fixing typos or broken links, translations. If you discover a vulnerability in the provided code, please report it as well. In both cases, please open an Issue first [in the main repository](https://github.com/kiriniy/settler) to discuss your idea or finding, so we can keep Settler focused on simplicity without dependencies or complex features (e.g. form handlers, routers, CMS-like logic).
 
 ## License
 
