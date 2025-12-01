@@ -22,6 +22,8 @@ A fat-free version of a blank PHP based web-project template — when future web
 
 If you're looking for **full** version: [https://github.com/kiriniy/settler](https://github.com/kiriniy/settler)
 
+Each [releases](https://github.com/kiriniy/settler-lite/releases) includes a table showing the differences between the versions.
+
 ## Philosophy
 
 At some point, we became overwhelmed by frameworks, building tools, and dependency trees. However, most websites don't need React, Node.js, Docker, Webpack, or dozens of dependencies in json-configs to get the job done. Web development has become overly complicated due to the assumption that everyone needs the same tools as large corporations, even for a five-page website or landing page.
